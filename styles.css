@@ -1,0 +1,40 @@
+
+/* Base Stying and Imports */
+:root {
+    --background-color: linear-gradient(to left, rgba(127, 0, 246, 0.192), rgba(55, 6, 100, 0.568));
+    --nav-font-color: rgba(29, 8, 52, 0.595);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Barlow:wght@100&family=Caprasimo&family=Playfair+Display&family=Raleway:ital,wght@1,100&family=Roboto+Slab:wght@600&family=Ysabeau+Office:ital,wght@1,1&display=swap');
+
+
+
+
+body {
+   background-image: var(--background-color);
+}
+
+/* Navigation Bar */
+a, ul, li {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: var(--nav-font-color);
+}
+
+a:hover {
+    font-weight: 900;
+    color: rgb(84, 12, 142);
+    font-size: 1.6rem;
+}
+
+.nameandpic {
+    
+}
