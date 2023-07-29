@@ -3,11 +3,11 @@
 :root {
     --background-color: linear-gradient(to left, rgba(127, 0, 246, 0.192), rgba(55, 6, 100, 0.568));
     --nav-font-color: rgba(29, 8, 52, 0.595);
+    --name-color: rgba(0, 0, 0, 0.753);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Barlow:wght@100&family=Caprasimo&family=Playfair+Display&family=Raleway:ital,wght@1,100&family=Roboto+Slab:wght@600&family=Ysabeau+Office:ital,wght@1,1&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Barlow:wght@100&family=Bebas+Neue&family=Caprasimo&family=Playfair+Display&family=Raleway:ital,wght@1,100&family=Roboto+Slab:wght@600&family=Ysabeau+Office:ital,wght@1,1&display=swap');
 
 
 body {
@@ -20,11 +20,11 @@ a, ul, li {
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: var(--nav-font-color);
 }
@@ -32,9 +32,42 @@ a {
 a:hover {
     font-weight: 900;
     color: rgb(84, 12, 142);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
+/* Home Section Styling */
 .nameandpic {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    letter-spacing: 5px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--name-color);
+}
+
+.jobtitle {
+    margin-bottom: 0;
+    margin-top: 1em;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.location {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+}
+
+.mypic {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 0%;
 }
